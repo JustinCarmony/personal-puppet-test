@@ -1,5 +1,6 @@
 node basenode {
-  include sudo
+  include sudo,
+  include ntp,
 }
 
 node 'dev1.justincarmony.com' inherits basenode {
