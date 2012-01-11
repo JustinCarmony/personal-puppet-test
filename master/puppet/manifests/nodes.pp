@@ -1,6 +1,7 @@
 node basenode {
   include sudo,
   include ntp,
+  include sysv-rc-conf,
 }
 
 node 'dev1.justincarmony.com' inherits basenode {
