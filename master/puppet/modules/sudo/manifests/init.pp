@@ -6,4 +6,7 @@ class sudo {
 		source=> "puppet:///modules/sudo/sudoers", 
 		require => Package["sudo"],
 	}
+	package { "sudo": 
+		ensure => installed 
+    	}
 }
