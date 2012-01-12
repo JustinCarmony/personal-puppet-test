@@ -4,7 +4,7 @@ node basenode {
   include sysv-rc-conf
 }
 
-node 'dev1.justincarmony.com' inherits basenode {
+node 'puppet.justincarmony.com' inherits basenode {
 
 }
 
